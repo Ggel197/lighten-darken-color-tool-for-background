@@ -76,7 +76,7 @@ input[type='text'] {
     margin: 0 10px;
 }
 
-.toggle-btn > .inner-circle {
+.toggle-btn>.inner-circle {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -84,7 +84,7 @@ input[type='text'] {
     transition: all 250ms;
 }
 
-.toggle-btn.toggled > .inner-circle {
+.toggle-btn.toggled>.inner-circle {
     transform: translateX(30px);
     background-color: #333;
 }
